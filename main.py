@@ -57,7 +57,7 @@ id = 6559684700#response.json()['result'][0]['message']['chat']['id']
 #정리하면 chat_id를 알아내는 방법이 바뀜.
 #https://api.telegram.org/bot6593939004:AAFTX-_Zqh7GAFsnkMphspP2KuftcMjzvW8/getUpdates
 
-
+#20230813 9시42분 아이디를 하드코딩으로 바꿈
 
 """
 print(response.json()['result'])
