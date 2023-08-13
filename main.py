@@ -53,13 +53,13 @@ chat_token = "6593939004:AAFTX-_Zqh7GAFsnkMphspP2KuftcMjzvW8"
 bot = telegram.Bot(chat_token)
 url = 'https://api.telegram.org/bot'+chat_token+'/getUpdates'
 response = requests.get(url)
-id = response.json()['result'][0]['message']['chat']['id']
+id = 6559684700#response.json()['result'][0]['message']['chat']['id']
 #정리하면 chat_id를 알아내는 방법이 바뀜.
 #https://api.telegram.org/bot6593939004:AAFTX-_Zqh7GAFsnkMphspP2KuftcMjzvW8/getUpdates
 
 
 
-
+"""
 print(response.json()['result'])
 print("----------------------------------------------------")
 print(response.json()['result'][0])
@@ -69,4 +69,5 @@ print("----------------------------------------------------")
 print(response.json()['result'][0]['message']['chat'])
 print("----------------------------------------------------")
 print(response.json()['result'][0]['message']['chat']['id'])
+"""
 asyncio.run(bot.sendMessage(chat_id = id, text=text))
