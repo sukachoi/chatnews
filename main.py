@@ -4,6 +4,7 @@
 # 메세지를 텔레그램으로 보낸다.
 #bot name chatgptsukabot
 #6593939004:AAFTX-_Zqh7GAFsnkMphspP2KuftcMjzvW8
+##@sdfdsfsdf
 import requests
 from bs4 import BeautifulSoup
 import telegram
