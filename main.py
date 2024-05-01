@@ -5,6 +5,7 @@
 #bot name chatgptsukabot
 #6593939004:AAFTX-_Zqh7GAFsnkMphspP2KuftcMjzvW8
 ##@sdfdsfsdf#dsf
+#수정 테스트
 import requests
 from bs4 import BeautifulSoup
 import telegram
